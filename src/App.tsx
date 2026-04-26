@@ -10,6 +10,7 @@ import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import SecurityLock from './components/SecurityLock';
 
 const App: React.FC = () => {
   const [loading, setLoading] = useState(true);
@@ -39,6 +40,7 @@ const App: React.FC = () => {
   return (
     <div className="bg-base min-h-screen text-primary selection:bg-cyan/30 selection:text-white">
       <CustomCursor />
+      <SecurityLock />
       
       <AnimatePresence mode="wait">
         {loading ? (
