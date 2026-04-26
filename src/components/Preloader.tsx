@@ -8,9 +8,10 @@ const WORDS = [
   "Ciao", // Italian
   "Hola", // Spanish
   "Salut", // French
-  "Salaam", // Arabic
+  "As-salamu-alaykum", // Arabic
   "Kon'nichiwa", // Japanese
-  "I'm Farhaan" // Final name part
+  "Privyet", // Russian
+  "FARHAAN" // Final name part
 ];
 
 const Preloader: React.FC<{ onComplete: () => void }> = ({ onComplete }) => {
