@@ -147,4 +147,62 @@ body.lightbox-open .custom-cursor {
   display: none !important;
 }
 
+/* 3D Perspective Stage for Fanned Deck */
+.perspective-stage {
+  perspective: 1500px;
+  transform-style: preserve-3d;
+}
+
+/* Sci-fi scanner line animation */
+@keyframes scan-line-anim {
+  0% { top: 0%; opacity: 0.1; }
+  10% { opacity: 0.9; }
+  90% { opacity: 0.9; }
+  100% { top: 100%; opacity: 0.1; }
+}
+
+.scanner-line {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--color-cyan), transparent);
+  box-shadow: 0 0 10px var(--color-cyan), 0 0 20px var(--color-cyan);
+  pointer-events: none;
+  z-index: 10;
+  animation: scan-line-anim 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+/* Sci-fi HUD Telemetry Bars */
+@keyframes telemetry-wave-1 {
+  0%, 100% { height: 15%; }
+  50% { height: 85%; }
+}
+@keyframes telemetry-wave-2 {
+  0%, 100% { height: 35%; }
+  50% { height: 70%; }
+}
+@keyframes telemetry-wave-3 {
+  0%, 100% { height: 10%; }
+  50% { height: 95%; }
+}
+
+.tel-bar-1 { animation: telemetry-wave-1 0.8s ease-in-out infinite; }
+.tel-bar-2 { animation: telemetry-wave-2 1.4s ease-in-out infinite; }
+.tel-bar-3 { animation: telemetry-wave-3 1.1s ease-in-out infinite; }
+.tel-bar-4 { animation: telemetry-wave-1 1.6s ease-in-out infinite; }
+.tel-bar-5 { animation: telemetry-wave-2 0.7s ease-in-out infinite; }
+
+/* HUD crosshair borders */
+.hud-corner {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-color: rgba(0, 229, 255, 0.4);
+  pointer-events: none;
+  z-index: 20;
+}
+
+
+
 
