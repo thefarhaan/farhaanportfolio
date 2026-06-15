@@ -1,0 +1,77 @@
+# <p align="center">✨ Shaik Mohammed Farhaan | Premium Portfolio ✨</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+</p>
+
+---
+
+## 🚀 The Vision
+
+A high-end, **cinematic developer portfolio** built for **Shaik Mohammed Farhaan**. This isn't just a website; it's a digital experience that bridges the gap between human creativity and machine efficiency.
+
+Designed with a **Cyber-Obsidian** theme, it showcases the power of **AI-augmented engineering** and **leveraging advanced AI Agents** to build production-ready platforms at breakneck speeds.
+
+---
+
+## 💎 Key Features
+
+- 🎭 **Cinematic Entrance**: A multi-lingual high-end preloader with staggering animations.
+- 🤖 **AI-First Identity**: Focused on leveraging and orchestrating advanced AI Agents.
+- 🛸 **Orbital Skills**: A dynamic, interactive skills galaxy with gravitational hover effects.
+- 🎞️ **Tech Odyssey**: A vertical timeline journey with holographic shine effects and 3D diamond nodes.
+- 🖱️ **Custom Cursor**: A theme-reactive fluid cursor that interacts with the UI.
+- ⚡ **Rapid Execution**: Built from scratch to production with unparalleled speed.
+- 📱 **Mobile-First Luxury**: Fully responsive design that maintains premium aesthetics on every device.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React 18 + TypeScript
+- **Styling**: Tailwind CSS (Glassmorphism & Cyber Theme)
+- **Animations**: Framer Motion (Advanced staggered & scroll-triggered motion)
+- **Icons**: React Icons (FontAwesome / IonIcons)
+- **Build Tool**: Vite (Lightning-fast HMR)
+- **Feedback System**: Custom Glassmorphism Toast Notifications
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/thefarhaan/farhaanportfolio.git
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Set up Environment Variables
+Create a `.env` file in the root directory:
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+### 4. Run Development Server
+```bash
+npm run dev
+```
+
+---
+
+## 📜 License
+
+Designed and Developed by **Shaik Mohammed Farhaan**. © 2026
+
+<p align="center">
+  <b>Built with Precision · Engineered with AI</b>
+</p>

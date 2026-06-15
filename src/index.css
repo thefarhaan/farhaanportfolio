@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Default dark theme */
+  --color-base: #080810;
+  --color-surface: #0E0E1A;
+  --color-elevated: #14142A;
+  --color-cyan: #00E5FF;
+  --color-amber: #F5A623;
+  --color-purple: #7B61FF;
+  --color-muted: #8885A8;
+  --color-dim: #4A4870;
+  --text-primary: #E8E6FF;
+}
+
+
+
+@layer base {
+  * {
+    cursor: none !important;
+  }
+
+  body {
+    @apply bg-base text-primary font-mono antialiased overflow-x-hidden transition-colors duration-500 select-none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+
+  img {
+    @apply pointer-events-none;
+    -webkit-user-drag: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-syne font-bold;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-base;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-cyan);
+    opacity: 0.2;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-cyan);
+    opacity: 0.4;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply backdrop-blur-xl border border-white/5;
+    background-color: color-mix(in srgb, var(--color-surface) 80%, transparent);
+  }
+
+  .text-glow-cyan {
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+  }
+
+  .border-glow-cyan {
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.1);
+  }
+
+  .glitch-effect:hover {
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+                -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+                0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+    animation: glitch 500ms infinite;
+  }
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-3px, 3px); }
+  40% { transform: translate(-3px, -3px); }
+  60% { transform: translate(3px, 3px); }
+  80% { transform: translate(3px, -3px); }
+  100% { transform: translate(0); }
+}
+
+@keyframes border-flow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.gradient-border-animated {
+  position: relative;
+  background: linear-gradient(90deg, #F5A623, #00E5FF, #F5A623);
+  background-size: 200% 200%;
+  animation: border-flow 4s linear infinite;
+}
+
+::selection {
+  background-color: transparent;
+  color: inherit;
+}
+
+/* Holographic certificate card styling */
+.holo-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1), border-color 0.5s ease;
+}
+
+.holo-shine {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  background: radial-gradient(
+    circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(255, 255, 255, 0.18) 0%,
+    rgba(0, 229, 255, 0.08) 25%,
+    rgba(123, 97, 255, 0.05) 50%,
+    transparent 80%
+  );
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  mix-blend-mode: color-dodge;
+}
+
+.holo-card:hover .holo-shine {
+  opacity: 1;
+}
+
+/* Edge glow effect for active cards */
+.holo-border-glow {
+  box-shadow: 0 0 30px rgba(0, 229, 255, 0.15), inset 0 0 15px rgba(123, 97, 255, 0.1);
+}
+
+/* Lightbox active overrides - show native cursor, hide custom cursor */
+body.lightbox-open,
+body.lightbox-open * {
+  cursor: auto !important;
+}
+
+body.lightbox-open .custom-cursor {
+  display: none !important;
+}
+
+
