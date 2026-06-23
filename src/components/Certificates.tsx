@@ -39,7 +39,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Large Language Models (LLMs) & GenAI',
     issuer: 'TuteDude',
     category: 'AI & Data Science',
-    image: '/src/assets/Certificates/certificate_TD-SHAI-LLM-1633.webp',
+    image: '/Certificates/certificate_TD-SHAI-LLM-1633.webp',
     date: '2026'
   },
   {
@@ -47,7 +47,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Deep Learning Specialization',
     issuer: 'TuteDude',
     category: 'AI & Data Science',
-    image: '/src/assets/Certificates/certificate_TD-SHAI-DL-1633.webp',
+    image: '/Certificates/certificate_TD-SHAI-DL-1633.webp',
     date: '2025'
   },
   {
@@ -55,7 +55,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Machine Learning Core',
     issuer: 'TuteDude',
     category: 'AI & Data Science',
-    image: '/src/assets/Certificates/certificate_TD-_-ML-1634.webp',
+    image: '/Certificates/certificate_TD-_-ML-1634.webp',
     date: '2025'
   },
   {
@@ -63,7 +63,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Ethical Hacking',
     issuer: 'TuteDude',
     category: 'Cybersecurity',
-    image: '/src/assets/Certificates/certificate_TD-SHAI-EH-2015.webp',
+    image: '/Certificates/certificate_TD-SHAI-EH-2015.webp',
     date: '2025'
   },
   {
@@ -71,7 +71,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'MERN Full-Stack Development',
     issuer: 'TuteDude',
     category: 'Development',
-    image: '/src/assets/Certificates/certificate_TD-SHAI-ME-0912.webp',
+    image: '/Certificates/certificate_TD-SHAI-ME-0912.webp',
     date: '2025'
   },
   {
@@ -79,7 +79,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Python Core Programming',
     issuer: 'TuteDude',
     category: 'Programming',
-    image: '/src/assets/Certificates/certificate_TD-SHAI-PY-0002 (1).webp',
+    image: '/Certificates/certificate_TD-SHAI-PY-0002 (1).webp',
     date: '2025'
   },
   {
@@ -87,7 +87,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'The Ultimate Job-Ready Data Science Course',
     issuer: 'CodeWithHarry',
     category: 'AI & Data Science',
-    image: '/src/assets/Certificates/The_Ultimate_Job_Ready_Data_Science_Course_Certificate.webp',
+    image: '/Certificates/The_Ultimate_Job_Ready_Data_Science_Course_Certificate.webp',
     date: '2025'
   },
   {
@@ -95,7 +95,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Python Advanced Certificate 2025',
     issuer: 'CodeWithHarry',
     category: 'Programming',
-    image: '/src/assets/Certificates/Shaik Mohammed Farhaan (Python Certificate 2025).webp',
+    image: '/Certificates/Shaik Mohammed Farhaan (Python Certificate 2025).webp',
     date: '2025'
   },
   {
@@ -103,7 +103,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Cyber Security Operations Foundation',
     issuer: 'Open Source Connect Global',
     category: 'Cybersecurity',
-    image: '/src/assets/Certificates/_Shaik Mohammed Farhaan__Certificate_1.webp',
+    image: '/Certificates/_Shaik Mohammed Farhaan__Certificate_1.webp',
     date: '2025'
   },
   {
@@ -111,7 +111,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Cyber Defense & Attack Vectors',
     issuer: 'Open Source Connect Global',
     category: 'Cybersecurity',
-    image: '/src/assets/Certificates/_Shaik Mohammed Farhaan__Certificate_2.webp',
+    image: '/Certificates/_Shaik Mohammed Farhaan__Certificate_2.webp',
     date: '2025'
   },
   {
@@ -119,7 +119,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Penetration Testing Specialist',
     issuer: 'Open Source Connect Global',
     category: 'Cybersecurity',
-    image: '/src/assets/Certificates/_Shaik Mohammed Farhaan__Certificate_3.webp',
+    image: '/Certificates/_Shaik Mohammed Farhaan__Certificate_3.webp',
     date: '2025'
   },
   {
@@ -127,7 +127,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Generative Ai',
     issuer: 'TuteDude',
     category: 'AI & Data Science',
-    image: '/src/assets/Certificates/certificate_TD-SHAI-GA-1631.webp',
+    image: '/Certificates/certificate_TD-SHAI-GA-1631.webp',
     date: '2025'
   },
   {
@@ -135,7 +135,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Java Full Stack Engineering',
     issuer: 'Edu Bridge',
     category: 'Development',
-    image: '/src/assets/Certificates/EBEON0522606394.webp',
+    image: '/Certificates/EBEON0522606394.webp',
     date: '2025'
   },
   {
@@ -143,7 +143,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Aptitude Test',
     issuer: 'Edu Bridge',
     category: 'Others',
-    image: '/src/assets/Certificates/EBEON0622113708.webp',
+    image: '/Certificates/EBEON0622113708.webp',
     date: '2025'
   },
   {
@@ -151,7 +151,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Communication With Ease English',
     issuer: 'Edu Bridge',
     category: 'Others',
-    image: '/src/assets/Certificates/EBEON0922117835.webp',
+    image: '/Certificates/EBEON0922117835.webp',
     date: '2025'
   },
   {
@@ -159,7 +159,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Financial Markets & Trading Tactics',
     issuer: 'TopG Traders',
     category: 'Others',
-    image: '/src/assets/Certificates/TopgTraders.webp',
+    image: '/Certificates/TopgTraders.webp',
     date: '2025'
   },
   {
@@ -167,7 +167,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Advanced Excel Skills',
     issuer: 'elearnmarkets',
     category: 'Others',
-    image: '/src/assets/Certificates/certificate (1).webp',
+    image: '/Certificates/certificate (1).webp',
     date: '2025'
   },
   {
@@ -175,7 +175,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Andriod Nought Mobile Apps Training',
     issuer: 'EDUCBA',
     category: 'Development',
-    image: '/src/assets/Certificates/certificate (2).webp',
+    image: '/Certificates/certificate (2).webp',
     date: '2025'
   },
   {
@@ -183,7 +183,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Python 3.5 Training',
     issuer: 'EDUCBA',
     category: 'Programming',
-    image: '/src/assets/Certificates/certificate (4).webp',
+    image: '/Certificates/certificate (4).webp',
     date: '2025'
   },
   {
@@ -191,7 +191,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Upgrading To Java8',
     issuer: 'EDUCBA',
     category: 'Development',
-    image: '/src/assets/Certificates/certificate (6).webp',
+    image: '/Certificates/certificate (6).webp',
     date: '2025'
   },
   {
@@ -199,7 +199,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Mobile Application Development',
     issuer: 'Itronix Solutions',
     category: 'Development',
-    image: '/src/assets/Certificates/certificate (7).webp',
+    image: '/Certificates/certificate (7).webp',
     date: '2025'
   },
   {
@@ -207,7 +207,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Foxex Trading Master',
     issuer: 'European Open University',
     category: 'Others', // Normalized to capital 'Others' to group properly
-    image: '/src/assets/Certificates/certificate-1-2.webp',
+    image: '/Certificates/certificate-1-2.webp',
     date: '2025'
   },
   {
@@ -215,7 +215,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Web Security By MSIT',
     issuer: 'MSIT',
     category: 'Cybersecurity',
-    image: '/src/assets/Certificates/1Jm0Rk.webp',
+    image: '/Certificates/1Jm0Rk.webp',
     date: '2025'
   },
   {
@@ -223,7 +223,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Web Security Find And Fix Bugs Like A Pro',
     issuer: 'DevTown',
     category: 'Cybersecurity',
-    image: '/src/assets/Certificates/1crWs5.webp',
+    image: '/Certificates/1crWs5.webp',
     date: '2025'
   },
   {
@@ -231,7 +231,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Web Security By GDCOC',
     issuer: 'Google Developers Group On Campus',
     category: 'Cybersecurity',
-    image: '/src/assets/Certificates/1i1E7n.webp',
+    image: '/Certificates/1i1E7n.webp',
     date: '2025'
   },
   {
@@ -239,7 +239,7 @@ const CERTIFICATES: CertificateData[] = [
     title: 'Web Security By DevTown',
     issuer: 'DevTown',
     category: 'Cybersecurity',
-    image: '/src/assets/Certificates/2shLGB.webp',
+    image: '/Certificates/2shLGB.webp',
     date: '2025'
   }
 ];
